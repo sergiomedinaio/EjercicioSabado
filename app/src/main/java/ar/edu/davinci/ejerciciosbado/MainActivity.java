@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -24,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
                 paragraph.setText(R.string.mainText);
                 paragraph.setBackgroundColor(+R.color.purple_500);
 
-                LinearLayout appContent = findViewById(R.id.appContent);
-                appContent.addView(paragraph);
+                LinearLayout contentList = findViewById(R.id.contentList);
+                contentList.addView(paragraph);
             }
         });
 
