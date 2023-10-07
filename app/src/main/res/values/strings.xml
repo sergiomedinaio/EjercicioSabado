@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">EjercicioSábado</string>
     <string name="mainText">"Ejemplo de texto"</string>
+    <string name="actionButtonText">Agregar texto</string>
 </resources>
