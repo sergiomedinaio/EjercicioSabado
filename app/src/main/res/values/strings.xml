@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">EjercicioSábado</string>
+    <string name="mainText">"Ejemplo de texto"</string>
 </resources>
